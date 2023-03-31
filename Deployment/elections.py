@@ -19,7 +19,7 @@ def categorizing(dat):
 
 df = pd.read_csv("https://raw.githubusercontent.com/aadarsh1810/Project-on-2019-Election-Dataset/main/Deployment/Elections.csv")
 df2 = pd.read_csv("Dataset_for_EDA.csv")
-df4 = pd.read_csv("Nota_dataset_for_EDA.csv")
+df4 = pd.read_csv("https://raw.githubusercontent.com/aadarsh1810/Project-on-2019-Election-Dataset/main/Source%20code%20and%20data%20files/Nota_dataset_for_EDA.csv")
 
 column = ['GENERAL VOTES', 'POSTAL VOTES', 'TOTAL VOTES', 'OVER TOTAL ELECTORS  IN CONSTITUENCY', 'OVER TOTAL VOTES POLLED  IN CONSTITUENCY']
 scaler = MinMaxScaler()
