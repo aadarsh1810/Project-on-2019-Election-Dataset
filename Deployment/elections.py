@@ -117,3 +117,19 @@ fig = plt.figure()
 sns.heatmap(df.corr(),annot=True)
 plt.title('Correlations of the dataset',size=15)
 tab2.pyplot(fig)
+footer="""<style>
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: white;
+color: black;
+text-align: center;
+}
+</style>
+<div class="footer">
+<p>Developed by Aadarsh Nayyer and Abhinav Kumar</p>
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)
