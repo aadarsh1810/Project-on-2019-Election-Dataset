@@ -56,7 +56,7 @@ st.markdown(
      )
 
 
-st.title("Elections")
+st.title("Indian Elections Analysis")
 
 parties = list(df['PARTY'].value_counts().index)
 
